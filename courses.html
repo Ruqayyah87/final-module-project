@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f3e8ff;
+      color: #333;
+    }
+    .bg-dark-custom {
+      background-color: #000000;
+    }
+    .text-primary-custom {
+      color:#f06292;
+    }
+    #hea{
+
+      color: #000000;
+    }
+    .gradient-bg {
+      background: linear-gradient(90deg, #cd9254, #000000);
+    }
+    
+    
+    .hero-section {
+      background-image: url('blog2.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+      position: relative;
+    }
+    .course-card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom sticky-top shadow-sm">
+  <div class="container">
+    <span style="font-family: 'Chewy', cursive; font-size: 28px;">
+  <span style="color: #ff8ec4;">Mini</span><span style="color: #ba9df9;">Mind</span>
+  <span style="font-family: 'Quicksand', sans-serif; color: #6c6c6c;">Learning Place</span>
+</span>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-primary-custom" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-primary-custom" href="index.html#about">About us</a></li>
+
+        <li class="nav-item"><a class="nav-link text-primary-custom" href="courses.html">courses</a></li>
+        <li class="nav-item"><a class="nav-link text-primary-custom" href="service.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link text-primary-custom" href="index.html#contact">Contact Us</a></li>
+      </ul>
+      <a href="enroll.html" class="btn btn-outline-light ms-lg-3">Enroll Now</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<!-- Hero Section -->
+<section class="hero-section d-flex align-items-center justify-content-center text-white text-center position-relative">
+  <div class="overlay position-absolute w-100 h-100" style="background: rgba(0, 0, 0, 0.65); top: 0; left: 0;"></div>
+  <div class="container position-relative z-2">
+    <h1 class="display-3 fw-bold text-uppercase text-primary-custom mb-3" data-aos="fade-down">Our Courses</h1>
+    <p class="lead fs-4 mb-4 text-light" data-aos="fade-up">Explore classes from Nursery to Grade 5, tailored for early excellence</p>
+    <a href="#explore" class="btn btn-light btn-lg px-4">Explore</a>
+  </div>
+</section>
+<br>
+
+<!-- Courses Section -->
+<section class="py-5 px-3 " id="explore" style="background-color:#f3e8ff;">
+  <div class="container">
+    <div class="mb-5">
+      <h2 class="fw-bold display-5 text-primary-custom" style="color: #000000;">Learn. Grow. Excel.</h2>
+      <p class="text-muted fs-5" style="max-width: 600px;">
+        Comprehensive learning solutions tailored for every stage of early education
+      </p>
+    </div>
+
+    <!-- Nursery -->
+    <div class="row align-items-center mb-5" >
+      <div class="col-md-6">
+        <h3 class="fw-bold text-primary-custom">Nursery Program</h3>
+        <p class="text-muted">Foundation building through playful learning activities:</p>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-check-circle text-success me-2"></i> Language Development (English & Urdu)</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Early Numeracy Skills</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Creative Arts & Crafts</li>
+        </ul>
+        <a href="enroll.html" class="btn btn-outline-dark my-4">Enroll Now</a>
+      </div>
+      <div class="col-md-6 text-center" data-aos="fade-left">
+        <img src="s3.jpg" alt="Nursery" class="img-fluid rounded shadow">
+      </div>
+    </div>
+
+    <!-- KG -->
+    <div class="row align-items-center flex-md-row-reverse mb-5" >
+      <div class="col-md-6">
+        <h3 class="fw-bold text-primary-custom">Kindergarten Program</h3>
+        <p class="text-muted">Structured learning with interactive methodologies:</p>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-check-circle text-success me-2"></i> Comprehensive English Curriculum</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Urdu Language</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Mathematics Fundamentals</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> General Knowledge & Awareness</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Phonics & Reading Skills</li>
+        </ul>
+        <a href="enroll.html" class="btn btn-outline-dark my-4">Enroll Now</a>
+      </div>
+      <div class="col-md-6 text-center" data-aos="fade-right">
+        <img src="service1.jpg" alt="KG" class="img-fluid rounded shadow">
+      </div>
+    </div>
+
+    <!-- Grade 1–5 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h3 class="fw-bold text-primary-custom">Primary Program</h3>
+        <p class="text-muted">Academic excellence with personalized attention:</p>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-check-circle text-success me-2"></i> English Literature</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Urdu Language</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Mathematics & Problem Solving</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Science & Environmental Studies</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Islamic Studies</li>
+          <li><i class="fas fa-check-circle text-success me-2"></i> Social Studies</li>
+        </ul>
+        <a href="enroll.html" class="btn btn-outline-dark my-4">Enroll Now</a>
+      </div>
+      <div class="col-md-6 text-center" data-aos="fade-left">
+        <img src="concept.jpg" alt="Grade 1–5" class="img-fluid rounded shadow">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+    <footer class="py-5 bg-dark-custom text-white">
+  <div class="container">
+    <div class="row justify-content-center text-center text-lg-start">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <h4 class="text-primary-custom mb-4">MiniMind Learning</h4>
+        <p>Quality home-based education for Nursery to Grade 5 students with experienced educators.</p>
+        
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+        <h5 class="text-primary-custom mb-4">Quick Links</h5>
+        <ul class="list-unstyled footer-links">
+          <li class="mb-2"><a href="#">Home</a></li>
+          <li class="mb-2"><a href="index.html#about">About Us</a></li>
+          <li class="mb-2"><a href="index.html#courses">Courses</a></li>
+           <li class="mb-2"><a href="service.html">Service</a></li>
+          <li class="mb-2"><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+        <h5 class="text-primary-custom mb-4">Courses</h5>
+        <ul class="list-unstyled footer-links">
+          <li class="mb-2"><a href="#">Nursery</a></li>
+          <li class="mb-2"><a href="#">KG</a></li>
+          <li class="mb-2"><a href="#">Grade 1-3</a></li>
+          <li class="mb-2"><a href="#">Grade 4-5</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="my-4 bg-light">
+
+    <div class="row">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="small">© 2023 MiniMind Learning. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <p class="small">Designed with <i class="fas fa-heart text-primary-custom"></i> for quality education</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  
+</body>
+</html>

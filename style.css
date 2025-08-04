@@ -1,0 +1,213 @@
+:root {
+  --primary-color: #f06292;         
+  --dark-color: #000000;            
+  --light-color: #ffffff;           
+  --secondary-color: #fff0f5;       
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--dark-color);
+  background-color: var(--light-color);
+}
+
+/* NAVBAR */
+.navbar .nav-link {
+  color: white !important;
+}
+.navbar .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* BUTTONS */
+.btn-primary-custom {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+}
+.btn-primary-custom:hover {
+  background-color: #d94b76;
+  color: #fff;
+}
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('ii.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  color: var(--light-color);
+}
+
+/* FEATURE BOX */
+.feature-box {
+  border: none;
+  transition: all 0.3s ease;
+  background-color: var(--light-color);
+  height: 430px;
+}
+.feature-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* SERVICE CARDS */
+.service-card {
+  background: var(--light-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+.service-card .card-title {
+  color: var(--primary-color);
+}
+
+/* CTA BUTTON */
+.cta-button {
+  background: var(--primary-color);
+  color: white;
+  border: 2px solid var(--primary-color);
+}
+.cta-button:hover {
+  background: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 10px 20px rgba(240, 98, 146, 0.3);
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+.footer-links a {
+  color: var(--light-color);
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: var(--primary-color);
+}
+.social-icon:hover {
+  color: var(--primary-color);
+}
+
+/* CONTACT */
+.contact-form {
+  background-color: var(--secondary-color);
+}
+.contact-icon {
+  color: var(--primary-color);
+}
+
+/* FAQ */
+.text-primary-custom {
+  color: var(--primary-color);
+}
+.faq-header:hover {
+  color: var(--primary-color);
+}
+.faq-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(240, 98, 146, 0.5);
+}
+
+/* SECTION TITLES */
+/* .title,
+.section-title {
+  color: var(--primary-color);
+}
+.title:after,
+.section-title::after {
+  background-color: var(--dark-color);
+} */
+
+/* ADDITIONAL ELEMENTS (like features) */
+.feature-icon {
+  color: var(--primary-color);
+}
+.feature-card:hover {
+  background-color: #fff0f5;
+  box-shadow: 0 8px 20px rgba(240, 98, 146, 0.2);
+}
+        
+        .section-title {
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: var(--primary);
+        }
+
+        /* service */
+
+        .header {
+      background-color: #f06292;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .card {
+      border: none;
+      transition: transform 0.2s;
+      background-color: #f3e8ff;
+      margin: 20px 0;
+    }
+    .card img {
+      max-height: 200px;
+      object-fit: cover;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .start-button {
+      background-color: #f06292;
+      color: white;
+      border-radius: 25px;
+      padding: 12px 30px;
+      text-decoration: none;
+    }
+    .start-button:hover {
+      background-color: #f06292;
+    }
+
+    /* .container {
+      margin-bottom: 100px;
+    } */
+    .row-spacing {
+      margin-bottom: 40px;
+    }
+    
+    .bg-dark-custom {
+      background-color: #222;
+    }
+    .text-primary-custom {
+      color: #f06292;
+    }
+    .btn-primary-custom {
+      background-color: #f06292;
+      border: none;
+    }
+    .btn-primary-custom:hover {
+      background-color: #f3e8ff;
+    }
+
+    
+    
